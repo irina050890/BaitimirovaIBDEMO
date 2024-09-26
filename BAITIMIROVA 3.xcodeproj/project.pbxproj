@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE64191A2CA500990061023E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6419192CA500990061023E /* CheckBox.swift */; };
+		CE75956F2CA3B53B00F2F381 /* BAITIMIROVA_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75956E2CA3B53B00F2F381 /* BAITIMIROVA_3App.swift */; };
+		CE7595712CA3B53B00F2F381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7595702CA3B53B00F2F381 /* ContentView.swift */; };
+		CE7595732CA3B53D00F2F381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7595722CA3B53D00F2F381 /* Assets.xcassets */; };
+		CE7595762CA3B53D00F2F381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7595752CA3B53D00F2F381 /* Preview Assets.xcassets */; };
+		CE97E10E2CA3B918004EE229 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E10D2CA3B918004EE229 /* Auth */; };
+		CE97E1102CA3B918004EE229 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E10F2CA3B918004EE229 /* Functions */; };
+		CE97E1122CA3B918004EE229 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E1112CA3B918004EE229 /* PostgREST */; };
+		CE97E1142CA3B918004EE229 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E1132CA3B918004EE229 /* Realtime */; };
+		CE97E1162CA3B918004EE229 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E1152CA3B918004EE229 /* Storage */; };
+		CE97E1192CA3B97E004EE229 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE97E1182CA3B97E004EE229 /* Supabase */; };
+		CE97E11B2CA3B9DA004EE229 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E11A2CA3B9DA004EE229 /* Supabase.swift */; };
+		CE97E11D2CA3BE95004EE229 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E11C2CA3BE95004EE229 /* Country.swift */; };
+		CE97E11F2CA3C308004EE229 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E11E2CA3C308004EE229 /* UserModel.swift */; };
+		CE97E1242CA3C443004EE229 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E1232CA3C443004EE229 /* UserViewModel.swift */; };
+		CE97E1272CA3C4B2004EE229 /* Reposetories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E1262CA3C4B2004EE229 /* Reposetories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE6419192CA500990061023E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CE75956B2CA3B53B00F2F381 /* BAITIMIROVA 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BAITIMIROVA 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE75956E2CA3B53B00F2F381 /* BAITIMIROVA_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAITIMIROVA_3App.swift; sourceTree = "<group>"; };
+		CE7595702CA3B53B00F2F381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE7595722CA3B53D00F2F381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7595752CA3B53D00F2F381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE97E11A2CA3B9DA004EE229 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		CE97E11C2CA3BE95004EE229 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		CE97E11E2CA3C308004EE229 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CE97E1232CA3C443004EE229 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CE97E1262CA3C4B2004EE229 /* Reposetories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reposetories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7595682CA3B53B00F2F381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE97E1122CA3B918004EE229 /* PostgREST in Frameworks */,
+				CE97E1102CA3B918004EE229 /* Functions in Frameworks */,
+				CE97E1192CA3B97E004EE229 /* Supabase in Frameworks */,
+				CE97E10E2CA3B918004EE229 /* Auth in Frameworks */,
+				CE97E1162CA3B918004EE229 /* Storage in Frameworks */,
+				CE97E1142CA3B918004EE229 /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7595622CA3B53B00F2F381 = {
+			isa = PBXGroup;
+			children = (
+				CE75956D2CA3B53B00F2F381 /* BAITIMIROVA 3 */,
+				CE75956C2CA3B53B00F2F381 /* Products */,
+				CE97E1172CA3B97E004EE229 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE75956C2CA3B53B00F2F381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE75956B2CA3B53B00F2F381 /* BAITIMIROVA 3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE75956D2CA3B53B00F2F381 /* BAITIMIROVA 3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE75956E2CA3B53B00F2F381 /* BAITIMIROVA_3App.swift */,
+				CE97E11A2CA3B9DA004EE229 /* Supabase.swift */,
+				CE97E11C2CA3BE95004EE229 /* Country.swift */,
+				CE7595702CA3B53B00F2F381 /* ContentView.swift */,
+				CE6419192CA500990061023E /* CheckBox.swift */,
+				CE97E1222CA3C33C004EE229 /* Models */,
+				CE7595722CA3B53D00F2F381 /* Assets.xcassets */,
+				CE7595742CA3B53D00F2F381 /* Preview Content */,
+			);
+			path = "BAITIMIROVA 3";
+			sourceTree = "<group>";
+		};
+		CE7595742CA3B53D00F2F381 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE7595752CA3B53D00F2F381 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE97E1172CA3B97E004EE229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE97E1222CA3C33C004EE229 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE97E11E2CA3C308004EE229 /* UserModel.swift */,
+				CE97E1262CA3C4B2004EE229 /* Reposetories.swift */,
+				CE97E1252CA3C44A004EE229 /* ViewModels */,
+				CE97E1232CA3C443004EE229 /* UserViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE97E1252CA3C44A004EE229 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE75956A2CA3B53B00F2F381 /* BAITIMIROVA 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7595792CA3B53D00F2F381 /* Build configuration list for PBXNativeTarget "BAITIMIROVA 3" */;
+			buildPhases = (
+				CE7595672CA3B53B00F2F381 /* Sources */,
+				CE7595682CA3B53B00F2F381 /* Frameworks */,
+				CE7595692CA3B53B00F2F381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BAITIMIROVA 3";
+			packageProductDependencies = (
+				CE97E10D2CA3B918004EE229 /* Auth */,
+				CE97E10F2CA3B918004EE229 /* Functions */,
+				CE97E1112CA3B918004EE229 /* PostgREST */,
+				CE97E1132CA3B918004EE229 /* Realtime */,
+				CE97E1152CA3B918004EE229 /* Storage */,
+				CE97E1182CA3B97E004EE229 /* Supabase */,
+			);
+			productName = "BAITIMIROVA 3";
+			productReference = CE75956B2CA3B53B00F2F381 /* BAITIMIROVA 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7595632CA3B53B00F2F381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CE75956A2CA3B53B00F2F381 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CE7595662CA3B53B00F2F381 /* Build configuration list for PBXProject "BAITIMIROVA 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7595622CA3B53B00F2F381;
+			packageReferences = (
+				CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = CE75956C2CA3B53B00F2F381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE75956A2CA3B53B00F2F381 /* BAITIMIROVA 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7595692CA3B53B00F2F381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7595762CA3B53D00F2F381 /* Preview Assets.xcassets in Resources */,
+				CE7595732CA3B53D00F2F381 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7595672CA3B53B00F2F381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE64191A2CA500990061023E /* CheckBox.swift in Sources */,
+				CE97E1272CA3C4B2004EE229 /* Reposetories.swift in Sources */,
+				CE97E11D2CA3BE95004EE229 /* Country.swift in Sources */,
+				CE97E1242CA3C443004EE229 /* UserViewModel.swift in Sources */,
+				CE7595712CA3B53B00F2F381 /* ContentView.swift in Sources */,
+				CE97E11B2CA3B9DA004EE229 /* Supabase.swift in Sources */,
+				CE97E11F2CA3C308004EE229 /* UserModel.swift in Sources */,
+				CE75956F2CA3B53B00F2F381 /* BAITIMIROVA_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE7595772CA3B53D00F2F381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7595782CA3B53D00F2F381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE75957A2CA3B53D00F2F381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAITIMIROVA 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.BAITIMIROVA-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE75957B2CA3B53D00F2F381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BAITIMIROVA 3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.BAITIMIROVA-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7595662CA3B53B00F2F381 /* Build configuration list for PBXProject "BAITIMIROVA 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7595772CA3B53D00F2F381 /* Debug */,
+				CE7595782CA3B53D00F2F381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7595792CA3B53D00F2F381 /* Build configuration list for PBXNativeTarget "BAITIMIROVA 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE75957A2CA3B53D00F2F381 /* Debug */,
+				CE75957B2CA3B53D00F2F381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE97E10D2CA3B918004EE229 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CE97E10F2CA3B918004EE229 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CE97E1112CA3B918004EE229 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CE97E1132CA3B918004EE229 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		CE97E1152CA3B918004EE229 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CE97E1182CA3B97E004EE229 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE97E10C2CA3B918004EE229 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE7595632CA3B53B00F2F381 /* Project object */;
+}
