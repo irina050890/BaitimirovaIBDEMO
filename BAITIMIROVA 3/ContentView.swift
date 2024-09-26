@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("Complete the sign up process to get started")
                     .padding(.leading,10)
                     .padding(.bottom,20)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 Text("Full name")
                     .font(.system(size: 20))
                     .padding(.leading,10)
@@ -29,23 +29,23 @@ struct ContentView: View {
                 TextField("Full name",text: $userViewModel.user.name)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 Text("Phone number")
                     .font(.system(size: 20))
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 TextField("Phone number",text: $userViewModel.user.phone)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 Text ("Email address")
                     .font(.system(size: 20))
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 TextField("Email address",text: $userViewModel.email)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 Text ("Password")
                     .font(.system(size: 20))
                     .padding(.leading,10)
@@ -53,21 +53,21 @@ struct ContentView: View {
                 SecureField("Password",text: $userViewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 Text ("Confirm Password")
                     .font(.system(size: 20))
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 SecureField("Confirm Password", text:$userViewModel.confirmPassword)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.leading,10)
-                    .opacity(0.5)
+                    .foregroundColor(.gray)
                 
                 HStack{
                     CheckBox(value: $checkBox)
                     
                     Text("By ticking this box, you agree to our")
-                        .opacity(0.5)
+                        .foregroundColor(.gray)
                     Link ("Terms and conditions and private policy",destination: URL(string: "http://google.com")!)
                 }
                 .padding()
@@ -91,11 +91,11 @@ struct ContentView: View {
                 VStack(alignment: .center){
                     Text("Already have an account?")
                         .padding(.top,20)
-                        .opacity(0.5)
+                        .foregroundColor(.gray)
                                 NavigationLink("Sign in", destination: SecondView())
                     Text("or sign in using")
                         .padding()
-                        .opacity(0.5)
+                        .foregroundColor(.gray)
                 }.padding(.leading,100)
             }.navigationTitle("")
         }
@@ -148,7 +148,11 @@ struct ContentView: View {
             }
         }
     }
-
+struct ContentView_Previews: PreviewProvider{
+    static var previews:some View{
+        ContentView()
+    }
+}
 
 #Preview {
     ContentView()
